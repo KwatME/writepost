@@ -126,9 +126,7 @@ def write_md(frontmatter, md, md_path):
         io.write(md)
 
 
-def error_exist(
-    path,
-):
+def error_exist(path,):
 
     if isfile(path):
 
