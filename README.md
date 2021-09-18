@@ -1,4 +1,4 @@
-`md_post` is a command line program for making a post.
+`md-post` is a command line program for making a post.
 
 It complements [Gatsby.js](https://www.gatsbyjs.com) markdown workflow.
 
@@ -15,42 +15,42 @@ python -m pip install git+https://github.com/KwatME/md_post
 Make a post and start adding content to Title/index.md:
 
 ```sh
-md_post Title
+md-post Title
 ```
 
 Add some tags to the frontmatter:
 
 ```sh
-md_post "Title with Space" --tag Tag --tag "Tag with Space"
+md-post "Title with Space" --tag Tag --tag "Tag with Space"
 ```
 
 Copy some files to the post directory:
 
 ```sh
-md_post "Title with Space" --copy path/to/file --copy test/cover_template.key
+md-post "Title with Space" --copy path/to/file --copy test/cover_template.key
 ```
 
 ### Convert a directory into a post
 
 ```sh
-md_post /path/to/directory
+md-post /path/to/directory
 ```
 
 If directory/image/ exists, the images will be sorted and listed in directory/index.md.
 You can simply take bunch of screenshots and automatically make a post with them.
 
 ```sh
-md_post test/Kobe\ and\ Jordan/
+md-post test/Kobe\ and\ Jordan/
 ```
 
 ### Update frontmatter
 
 ```sh
-md_post path/to/index.md
+md-post path/to/index.md
 ```
 
 ```sh
-md_post test/Kobe\ and\ Jordan/index.md
+md-post test/Kobe\ and\ Jordan/index.md
 ```
 
 ---
